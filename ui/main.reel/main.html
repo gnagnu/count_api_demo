@@ -2,21 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Main</title>
-
-    <link rel="stylesheet" href="main.css">
-
+    <title>
+        Main
+    </title>
+    <link rel="stylesheet" href="https://work.montagestudio.com/app/43a769bad39d1b6616cd108fd3384eef51f7c016/main.css">
     <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": {"#": "main"}
-                }
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "image": {
+            "prototype": "digit/ui/image.reel",
+            "properties": {
+                "element": {"#": "image"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true"
             }
         }
+    }
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="light" class="Main"></div>
+    <div data-montage-id="main" data-montage-skin="light" class="Main">
+        <img data-montage-id="image">
+    </div>
 </body>
 </html>
